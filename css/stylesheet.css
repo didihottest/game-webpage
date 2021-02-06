@@ -1,19 +1,13 @@
-body, html {
-    height: 100%;
-    margin: 0;
-    width: 100%;
-}
-
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
 a {
     text-decoration: none;
-  }
+}
 
-/* topmenu start */
-.top-menu {
+/* top-menu start */
+#top-menu {
     background-color: rgba(0, 0, 0, 0.8);
     position: fixed;
     top: 0px;
@@ -22,7 +16,7 @@ a {
 }
 
 .container-fluid {
-    padding:0% 7% 0%;
+    padding: 0% 7% 0%;
 }
 
 .navbar-brand {
@@ -35,8 +29,12 @@ a {
     padding-right: 40px;
 }
 
+.nav-link {
+    text-align: center;
+}
 
-/* topmenu end */
+
+/* top-menu end */
 
 /* playnow start */
 
@@ -44,12 +42,10 @@ a {
     margin: 0 auto;
     text-align: center;
     color: white;
-    background-image: url("assets/main-bg.jpg");
+    background-image: url("../assets/main-bg.jpg");
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
-    height: 100%;
-    width: 100%;
+    background-position: center;
 }
 
 .playnow {
@@ -58,150 +54,26 @@ a {
 }
 
 .playnow h1 {
-    font-size: 80px;
+    font-size: 5em;
     font-family: 'Bebas Neue', cursive;
 }
 
 .playnow h2 {
-    font-size: 36px;
+    font-size: 2em;
     font-family: 'Bebas Neue', cursive;
     margin-bottom: 50px;
 }
 
 .playnow a {
     text-decoration: none;
-    color:black;
+    color: black;
 }
 
 .playbutton {
-    padding: 20px 70px;
+    padding: 0.8em 4em;
     background-color: #d8a200;
-    color:black;
+    color: black;
     font-weight: bold;
 }
 
 /* playnow end */
-
-/* the games start */
-
-.the-games-container {
-    margin: 0 auto;
-    text-align: left;
-    color: white;
-    width: 100%;
-    background-image: url("/assets/the-games-bg.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 1566px;
-    top: 0%;
-    width: 100%;
-}
-
-.the-game {
-    padding-top: 500px;
-}
-
-.the-game-image {
-    width: 900px;
-}
-
-.games h2 {
-    font-size: 20px;
-}
-/* the games end */
-
-/* features start */
-
-.features-container {
-    margin: 0 auto;
-    text-align: left;
-    color: white;
-    background-image: url("/assets/features.jpg");
-    height: 1400px; 
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-}
-
-.features-box {
-    width:400px;
-    position: relative;
-    padding-top: 200px;
-    margin-left: 600px;
-}
-
-.features-title {
-    padding-bottom: 80px;
-}
-
-.features-title h2 {
-    font-size: 1.2rem;
-
-}
-
-.features-title h1 {
-    font-size: 3rem;
-}
-
-.golden {
-    color: goldenrod;
-    font-size: 1.2rem;
-}
-
-.btn.golden {
-    padding: none;
-    margin: 0 auto;
-}
-
-.golden:hover {
-    color: gold;
-}
-
-.card-body {
-    font-size: 1em;
-}
-
-.card {
-    background-color: transparent;
-}
-
-/* system requirement start */
-
-.system-requirement-container {
-    margin: 0 auto;
-    text-align: left;
-    color: white;
-    background-image: url("/assets/requirements.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 961px;
-    width: 100%;
-}
-
-.system {
-    text-align: center;
-    padding-top: 50px;
-}
-
-.sys-req-h1 {
-    padding-top: 200px;
-    padding-left: 50px;
-}
-
-.system-title {
-    color: goldenrod;
-}
-
-.system-requirement {
-    padding-top: 100px;
-    padding-left: 50px;
-}
-
-.border-1 {
-    padding: 20px 20px;
-}
-
-/* system requierment end */

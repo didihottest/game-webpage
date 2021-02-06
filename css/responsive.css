@@ -1,86 +1,41 @@
 @media (max-width:992px) {
-    
-    .topmenu {
-        margin: 0 auto;
+
+    /* top-menu start */
+    .nav-item {
+        padding-right: 0px;
     }
 
+    /* top-menu end */
+
+    /* the games start */
+    
     .the-games-container {
         text-align: center;
         height: 700px;
     }
 
-    .the-game {
-        padding-top:200px;
-    }
-
-    .games {
-        padding-bottom: 100px;
-    }
-
-    .the-game-image {
-        width: 400px;
-    }
-
-    .features-container {
-        height: 800px;
-    }
-
-    .features-title {
-        text-align: center;
-    }
-
-    .features-box {
-        margin: 0 auto;
-        text-align: center;
-        width: 100%;
-    }
-
-    .golden {
-        font-weight: bold;
-    }
-
-    .card-header{
-        background-color: rgba(0, 0, 0, 0.5);
-    }
-
-    .card-body {
-        background-color: rgba(0, 0, 0, 0.5);
-    }
-
-    .sys-req-h1 {
-        padding-top: 80px;
-    }
-
-    .system-requirement {
-        padding-top: 60px;
-    }
-
-    .border-1 {
-        padding: 10px;
-    }
+    /* the games end */
 }
 
 @media (max-width:576px) {
     
     .container-fluid {
-        padding:0;
+        padding:1%;
     }
-    .topmenu {
-        margin: 0 auto;
-    }
-    
     .playnow {
         padding-top: 200px;
-        padding-bottom:520px;
+        padding-bottom:320px;
     }
 
     .playnow h1 {
-        font-size: 60px;
+        font-size: 3rem;
         font-family: 'Bebas Neue', cursive;
+        line-height: 3rem;
+        margin-bottom: 1.5rem;
     }
     
     .playnow h2 {
-        font-size: 28px;
+        font-size: 2rem;
         font-family: 'Bebas Neue', cursive;
         margin-bottom: 50px;
     }
@@ -88,13 +43,6 @@
     .playnow a {
         text-decoration: none;
         color:black;
-    }
-    
-    .the-game {
-        padding-top:200px;
-    }
-    .the-game-image {
-        width: 350px;
     }
     
 }

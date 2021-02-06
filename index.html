@@ -5,13 +5,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="stylesheet.css">
-  <link rel="stylesheet" href="responsive.css">
+  <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="css/responsive.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="responsive.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <!-- bootstrap script file -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
   </script>
@@ -22,6 +19,8 @@
     integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
   </script>
   <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap"
     rel="stylesheet">
   <!-- Font Awesome -->
@@ -32,15 +31,15 @@
 <body>
 
   <!-- top menu -->
-  <div class=top-menu>
-    <div class="container-fluid ">
+  <section id=top-menu>
+    <div class="container-fluid">
       <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="#">LOGO</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-toggle-main"
+          aria-controls="navbar-toggle-main" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <div class="collapse navbar-collapse" id="navbar-toggle-main">
           <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="#home">Home</a>
@@ -66,7 +65,7 @@
         </div>
       </nav>
     </div>
-  </div>
+  </section>
   <!-- end of top menu -->
 
   <!-- playnow start -->
@@ -74,7 +73,7 @@
     <div class="playnow">
       <h1>PLAY TRADITIONAL GAME</h1>
       <h2>Experience new traditional gameplay</h2>
-      <a href="#download" class="playbutton">PLAY NOW</a>
+      <a href="#download" class="btn playbutton">PLAY NOW</a>
     </div>
   </div>
   <!-- end of playnow -->
