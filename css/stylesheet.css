@@ -1,14 +1,33 @@
+/* global-setting start */
+
 body {
     font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+
+h1 {
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: bold;
 }
 
 a {
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
 }
+
+.background-style {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+
+}
+
+/* global-setting end */
 
 /* top-menu start */
 #top-menu {
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
     position: fixed;
     top: 0px;
     z-index: 1;
@@ -42,9 +61,6 @@ a {
     text-align: center;
     color: white;
     background-image: url("../assets/main-bg.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
 }
 
 .playnow {
@@ -78,5 +94,77 @@ a {
 /* playnow end */
 
 /* the-games start */
+#the-games-section {
+    background-image: url("../assets/the-games-bg.jpg");
+    color: white;
+}
+
+.the-games {
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+.text-title {
+    font-size: 1.5em;
+    color: white;
+}
+
+.text-content {
+    font-size: 3.5em;
+    color: white;
+}
+
+.carousel-indicators>li {
+    border-radius: 50%;
+    margin: 1px 3px;
+    height: 10px;
+    max-width: 10px;
+    border: 1px solid #FFF;
+    background-color: transparent;
+}
+
+.carousel-indicators .active {
+    background-color: #fff;
+    background-color: white;
+}
 
 /* the-games end */
+
+/* features start */
+
+#features-section {
+    background-image: url("../assets/features.jpg");
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#accordion {
+    background-color: transparent;
+
+}
+
+.golden {
+    color: goldenrod;
+    font-size: 1.2rem;
+}
+
+.golden:hover {
+    color: gold !important;
+    font-size: 1.2rem !important;
+}
+
+.btn.golden {
+    padding: none;
+    margin: 0 auto;
+}
+
+.features-text {
+    padding-left: 10% !important;
+}
+
+.card-style {
+    background-color: transparent;
+    color: white;
+}
+
+/* features end */
