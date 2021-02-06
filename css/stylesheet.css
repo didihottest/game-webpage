@@ -146,6 +146,7 @@ a {
 .golden {
     color: goldenrod;
     font-size: 1.2rem;
+    padding-left: 0%;
 }
 
 .golden:hover {
@@ -153,18 +154,18 @@ a {
     font-size: 1.2rem !important;
 }
 
-.btn.golden {
-    padding: none;
-    margin: 0 auto;
+.features-text {
+    padding-left: 5% !important;
 }
 
-.features-text {
-    padding-left: 10% !important;
+.card-header {
+    padding-left: 5%;
 }
 
 .card-style {
     background-color: transparent;
     color: white;
+
 }
 
 /* features end */
