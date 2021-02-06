@@ -38,8 +38,7 @@ a {
 
 /* playnow start */
 
-.playnow-container{
-    margin: 0 auto;
+#playnow-section {
     text-align: center;
     color: white;
     background-image: url("../assets/main-bg.jpg");
@@ -50,7 +49,7 @@ a {
 
 .playnow {
     padding-top: 300px;
-    padding-bottom:420px;
+    padding-bottom: 420px;
 }
 
 .playnow h1 {
@@ -77,3 +76,7 @@ a {
 }
 
 /* playnow end */
+
+/* the-games start */
+
+/* the-games end */

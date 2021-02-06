@@ -7,24 +7,29 @@
 
     /* top-menu end */
 
-    /* the games start */
-    
-    .the-games-container {
-        text-align: center;
-        height: 700px;
-    }
+    /* the-games start */
 
-    /* the games end */
+
+    /* the-games end */
 }
 
 @media (max-width:576px) {
-    
+
     .container-fluid {
-        padding:1%;
+        padding: 4%;
     }
+
+    /* top-menu start */
+    #top-menu .container-fluid {
+        padding: 0%;
+    }
+
+    /* top-menu end */
+
+    /* playnow start */
     .playnow {
         padding-top: 200px;
-        padding-bottom:320px;
+        padding-bottom: 320px;
     }
 
     .playnow h1 {
@@ -33,16 +38,22 @@
         line-height: 3rem;
         margin-bottom: 1.5rem;
     }
-    
+
     .playnow h2 {
         font-size: 2rem;
         font-family: 'Bebas Neue', cursive;
         margin-bottom: 50px;
     }
-    
+
     .playnow a {
         text-decoration: none;
-        color:black;
+        color: black;
     }
-    
+
+    /* playnow end */
+
+    /* the-games start */
+
+
+    /* the-games end */
 }
