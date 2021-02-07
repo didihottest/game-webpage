@@ -35,7 +35,7 @@ a {
 }
 
 .container-fluid {
-    padding: 0% 7% 0%;
+    padding: 0% 7% 0% 7%;
 }
 
 .navbar-brand {
@@ -203,7 +203,41 @@ a {
     line-height: 1em;
 }
 
-.table-bordered td{
+.table-bordered td {
     border: 1.5px solid rgb(70, 69, 69);
 }
+
 /* system-req end */
+
+/* topscores start */
+
+#topscores-section {
+    background-image: url(../assets/top-score-bg.png), linear-gradient(to right, rgb(44, 44, 44) , rgb(0, 0, 0));
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.topscores-title {
+    color: white;
+    font-size: 3.5em;
+}
+
+.topscores-text {
+    font-size: 1em;
+    color: white;
+}
+
+.topscores-review-style {
+    color: white;
+}
+
+
+.review-box {
+    background-color: #191A1B;
+    border-radius: 10px;
+    /* padding-top: 14%;
+    padding-bottom: 14%;
+    margin-bottom: 10%; */
+}
+
+/* topscores end */
