@@ -50,6 +50,7 @@ a {
 
 .nav-link {
     text-align: center;
+    white-space: nowrap;
 }
 
 
@@ -169,3 +170,7 @@ a {
 }
 
 /* features end */
+
+/* system-req start */
+
+/* system-req end */
