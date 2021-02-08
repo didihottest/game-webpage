@@ -200,19 +200,19 @@ a {
 
 .sys-desc {
     color: white;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .sysreq-header {
     text-align: center;
     color: white;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .sysreq-header2 {
     margin-top: 1em;
-    font-size: 7em;
-    font-family: 'Bebas Neue', cursive;
+    font-size: 3.5em;
+    font-family: 'Arial', cursive;
     color: white;
     line-height: 1em;
 }
@@ -249,9 +249,35 @@ a {
 .review-box {
     background-color: #191A1B;
     border-radius: 10px;
-    /* padding-top: 14%;
-    padding-bottom: 14%;
-    margin-bottom: 10%; */
+    padding: 5% 5% 1% 5%;
+    margin-bottom: 7%;
+}
+
+.reviewer-img {
+    width: 3rem;
+    box-shadow: 5px 5px #FFB548;
+    padding-bottom: 1%;
+}
+
+.reviewer-name {
+    color: #FFB548;
+    font-size: 1.5em;
+    margin-bottom: 0.5%;
+}
+
+.reviewer-job {
+    font-size: 1em;
+    color: gray;
+}
+
+.reviewer-testi {
+    font-size: 1em;
+    color: white;
+}
+
+.reviewer-date {
+    font-size: 1em;
+    color: gray;
 }
 
 /* topscores end */
@@ -307,7 +333,12 @@ a {
 .subscribe-button {
     background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
     height: auto;
+    border-radius: 4px;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
 }
+
 
 
 

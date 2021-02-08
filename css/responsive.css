@@ -43,6 +43,29 @@
         text-align: center;
         margin-bottom: 10%;
     }
+    .reviewer-img-container {
+        text-align: center;
+    }
+    
+    .reviewer-name {
+        text-align: center;
+    }
+    
+    .reviewer-job {
+        text-align: center;
+    }
+    
+    .reviewer-testi {
+        text-align: center;
+    }
+    
+    .reviewer-date {
+        text-align: center;
+    }
+
+    .medsos {
+        text-align: center;
+    }
 
     /* topscores end */
 
@@ -170,6 +193,30 @@
 
     /* topscores start */
 
+    
+    .reviewer-img-container {
+        text-align: center;
+    }
+    
+    .reviewer-name {
+        text-align: center;
+    }
+    
+    .reviewer-job {
+        text-align: center;
+    }
+    
+    .reviewer-testi {
+        text-align: center;
+    }
+    
+    .reviewer-date {
+        text-align: center;
+    }
+
+    .medsos {
+        text-align: center;
+    }
     /* topscores end */
 
     /* news-section start */
