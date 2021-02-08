@@ -66,17 +66,19 @@ a {
 
 .playnow {
     padding-top: 300px;
-    padding-bottom: 420px;
+    padding-bottom: 600px;
 }
 
 .playnow h1 {
     font-size: 5em;
-    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    font-family: 'Arial';
 }
 
 .playnow h2 {
     font-size: 2em;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Arial', cursive;
+    font-weight: 400;
     margin-bottom: 50px;
 }
 
@@ -87,8 +89,20 @@ a {
 
 .playbutton {
     padding: 0.8em 4em;
-    background-color: #d8a200;
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
     color: black;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.story {
+    padding-bottom: 60px;
+}
+
+.story-text {
+    font-size: 0.75em;
+    font-family: 'Open Sans';
     font-weight: bold;
 }
 
@@ -136,7 +150,7 @@ a {
 #features-section {
     background-image: url("../assets/features.jpg");
     padding-top: 300px;
-    padding-bottom: 300px;
+    padding-bottom: 570px;
 }
 
 #accordion {
@@ -212,7 +226,7 @@ a {
 /* topscores start */
 
 #topscores-section {
-    background-image: url(../assets/top-score-bg.png), linear-gradient(to right, rgb(44, 44, 44) , rgb(0, 0, 0));
+    background-image: url(../assets/top-score-bg.png), linear-gradient(to right, rgb(44, 44, 44), rgb(0, 0, 0));
     padding-top: 100px;
     padding-bottom: 100px;
 }
@@ -241,3 +255,61 @@ a {
 }
 
 /* topscores end */
+
+/* news-section start */
+#news-section {
+    background-image: url(../assets/news-letter.jpg);
+    padding-top: 100px;
+    padding-bottom: 300px;
+    color: white;
+    
+}
+
+.news-section-text-container {
+    padding-bottom: 5%;
+}
+
+.news-title {
+    font-size: 1.5rem;
+    font-family: 'Arial';
+}
+
+.news-subscribe {
+    font-size: 4rem;
+    font-family: 'Arial';
+    font-weight: normal;
+}
+
+.news-desc {
+    font-size: 1rem;
+}
+
+.email-box {
+    background: #1C1D1F;
+    border-radius: 5px;
+    margin-right: 5%;
+}
+
+.email-input-box {
+    background: #1C1D1F;
+    border: 0px;
+}
+
+.email-input-box:active {
+    padding-left: 0%;
+    border: 0px;
+}
+
+.form-control {
+    padding:0%;
+}
+
+.email-input-box::placeholder{
+    color: #FFB548;
+}
+
+.subscribe-button {
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    height: auto;
+}
+/* news-section end */
