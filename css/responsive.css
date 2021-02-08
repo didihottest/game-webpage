@@ -43,28 +43,17 @@
         text-align: center;
         margin-bottom: 10%;
     }
+
     .reviewer-img-container {
-        text-align: center;
+        margin-bottom: 5%;
     }
-    
-    .reviewer-name {
-        text-align: center;
-    }
-    
-    .reviewer-job {
-        text-align: center;
-    }
-    
-    .reviewer-testi {
-        text-align: center;
-    }
-    
-    .reviewer-date {
+
+    .topscores-review-style {
         text-align: center;
     }
 
     .medsos {
-        text-align: center;
+        margin-bottom: 2%;
     }
 
     /* topscores end */
@@ -79,19 +68,20 @@
         margin-right: 0%;
     }
 
-    .email-input-box::placeholder{
+    .email-input-box::placeholder {
         text-align: center;
     }
 
-    .news-subscribe{
+    .news-subscribe {
         text-align: center;
     }
+
     .news-desc {
         text-align: center;
     }
 
     /* news-section end */
-    
+
 }
 
 @media (max-width:576px) {
@@ -165,14 +155,14 @@
         padding-top: 100px;
         padding-bottom: 100px;
     }
-    
+
 
     .sys-title {
         color: goldenrod;
         font-size: 1em;
         font-weight: bold;
     }
-    
+
     .sys-desc {
         color: white;
         font-size: 0.9em;
@@ -189,34 +179,24 @@
         text-align: center;
         margin-bottom: 1em;
     }
+
     /* system-req end */
 
     /* topscores start */
 
-    
+
     .reviewer-img-container {
-        text-align: center;
+        margin-bottom: 5%;
     }
-    
-    .reviewer-name {
-        text-align: center;
-    }
-    
-    .reviewer-job {
-        text-align: center;
-    }
-    
-    .reviewer-testi {
-        text-align: center;
-    }
-    
-    .reviewer-date {
+
+    .topscores-review-style {
         text-align: center;
     }
 
     .medsos {
-        text-align: center;
+        margin-bottom: 2%;
     }
+
     /* topscores end */
 
     /* news-section start */
@@ -229,11 +209,11 @@
         margin-right: 0%;
     }
 
-    .email-input-box::placeholder{
+    .email-input-box::placeholder {
         text-align: center;
     }
 
-    .news-subscribe{
+    .news-subscribe {
         font-size: 2.5rem;
         text-align: center;
     }
@@ -241,5 +221,6 @@
     .news-desc {
         text-align: center;
     }
+
     /* news-section end */
 }
