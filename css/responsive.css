@@ -45,8 +45,27 @@
     }
 
     /* topscores end */
-    
+
     /* news-section start */
+    .news-title {
+        text-align: center;
+    }
+
+    .email-box {
+        text-align: center;
+        margin-right: 0%;
+    }
+
+    .email-input-box::placeholder{
+        text-align: center;
+    }
+
+    .news-subscribe{
+        text-align: center;
+    }
+    .news-desc {
+        text-align: center;
+    }
 
     /* news-section end */
     
@@ -154,6 +173,26 @@
     /* topscores end */
 
     /* news-section start */
+    .news-title {
+        text-align: center;
+    }
 
+    .email-box {
+        text-align: center;
+        margin-right: 0%;
+    }
+
+    .email-input-box::placeholder{
+        text-align: center;
+    }
+
+    .news-subscribe{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .news-desc {
+        text-align: center;
+    }
     /* news-section end */
 }
