@@ -181,11 +181,11 @@
     .sysreq-header {
         text-align: center;
         color: white;
-        font-size: 1.3em;
+        font-size: 1em;
     }
 
     .sysreq-header2 {
-        font-size: 3em;
+        font-size: 2em;
         text-align: center;
         margin-bottom: 1em;
     }
