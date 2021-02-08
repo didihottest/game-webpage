@@ -81,6 +81,21 @@
     }
 
     /* news-section end */
+    
+    /* footer-start */
+    .copy-right {
+        text-align: center;
+    }
+
+    .cpright-text {
+        width: 100%;
+    }
+
+    .privacy {
+        width: 100%;
+    }
+
+    /* footer-end */
 
 }
 
@@ -104,15 +119,15 @@
     }
 
     .playnow h1 {
-        font-size: 3rem;
-        font-family: 'Bebas Neue', cursive;
+        font-size: 2.5rem;
+        font-family: 'arial', cursive;
         line-height: 3rem;
         margin-bottom: 1.5rem;
     }
 
     .playnow h2 {
-        font-size: 2rem;
-        font-family: 'Bebas Neue', cursive;
+        font-size: 1.5rem;
+        font-family: 'arial', cursive;
         margin-bottom: 50px;
     }
 
@@ -200,6 +215,10 @@
     /* topscores end */
 
     /* news-section start */
+
+    #news-section {
+        padding-top: 100px;
+    }
     .news-title {
         text-align: center;
     }
@@ -223,4 +242,19 @@
     }
 
     /* news-section end */
+
+    /* footer-start */
+    .copy-right {
+        text-align: center;
+    }
+
+    .cpright-text {
+        width: 100%;
+    }
+
+    .privacy {
+        width: 100%;
+    }
+
+    /* footer-end */
 }
